@@ -1,6 +1,6 @@
 # STM - Security Token Master
   (ERC20-Compatible Commodity/Cashflow Token)
-
+<!-- Kyle Wilson -->
 ## Recommended/Supported
 
 - Recommended environment is Linux/OSX/WSL: scripts are not currently Windows/Powershell compatible.
