@@ -1,0 +1,19 @@
+{
+   "compilerOptions": {
+      "esModuleInterop": true,
+      "noImplicitAny": true,
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "pretty": true,
+      "types": [
+         "jest",
+         "node"
+      ],
+      "sourceMap": true,
+      "target": "es6",
+      "outDir": "build/"
+   }
+}

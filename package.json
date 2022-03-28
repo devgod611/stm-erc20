@@ -1,0 +1,27 @@
+{
+  "name": "@aircarbon/stm",
+  "private": true,
+  "workspaces": [
+    "stm",
+    "orm"
+  ],
+  "scripts": {
+    "postinstall": "cd orm && npm run build",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "@typescript-eslint/eslint-plugin": "^5.3.1",
+    "@typescript-eslint/parser": "^5.3.1",
+    "eslint": "^8.2.0",
+    "eslint-config-productsway": "0.1.9",
+    "husky": "^7.0.2",
+    "lint-staged": ">=11.2.6",
+    "nlf": "^2.1.1",
+    "prettier": "^2.4.1"
+  },
+  "lint-staged": {
+    "*.{js,ts}": "eslint --cache --fix",
+    "*.{js,ts,css,md}": "prettier --write"
+  }
+}
